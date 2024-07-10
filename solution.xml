@@ -1,0 +1,107 @@
+<ImportExportXml version="9.2.24063.156" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MyExpenses</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="MyExpenses" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.4</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>Contoso</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Contoso" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>contoso</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>33065</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="contoso_myexpenses" behavior="0" />
+      <RootComponent type="29" id="{0ff06ccc-242e-ef11-8e4f-6045bd7271c5}" behavior="0" />
+      <RootComponent type="300" schemaName="contoso_myexpenses_424a0" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="9" schemaName="contoso_approve" displayName="Approve" solution="Active" />
+        <Dependent type="2" schemaName="contoso_approvestatus" displayName="ApprovedStatus" parentSchemaName="contoso_myexpenses" parentDisplayName="MyExpenses" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="9" schemaName="contoso_costcenter" displayName="Cost Center" solution="Active" />
+        <Dependent type="2" schemaName="contoso_costcenter" displayName="Cost Center" parentSchemaName="contoso_myexpenses" parentDisplayName="MyExpenses" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="contoso_sharedapprovals_5e5d0" solution="Active" id.connectionreferencelogicalname="contoso_sharedapprovals_5e5d0" />
+        <Dependent type="29" displayName="When an item is created -&gt; Start and wait for an approval,Condition..." id="{0ff06ccc-242e-ef11-8e4f-6045bd7271c5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="contoso_sharedteams_c4db2" solution="Active" id.connectionreferencelogicalname="contoso_sharedteams_c4db2" />
+        <Dependent type="29" displayName="When an item is created -&gt; Start and wait for an approval,Condition..." id="{0ff06ccc-242e-ef11-8e4f-6045bd7271c5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="new_sharedoffice365_88cfb" solution="Active" id.connectionreferencelogicalname="new_sharedoffice365_88cfb" />
+        <Dependent type="29" displayName="When an item is created -&gt; Start and wait for an approval,Condition..." id="{0ff06ccc-242e-ef11-8e4f-6045bd7271c5}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

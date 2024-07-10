@@ -34,7 +34,7 @@
 - **Security:** Ensured data privacy with restricted organizational access.
 
 ![image](https://github.com/mohita98/MyExpenseApp/assets/77202377/965c582b-5e41-44bf-88d2-fd2e06bb6913)
-![image](https://github.com/mohita98/MyExpenseApp/assets/77202377/6a194112-8c0b-43fd-bf5c-ff27a24fd097)
+  ![image](https://github.com/mohita98/MyExpenseApp/assets/77202377/6a194112-8c0b-43fd-bf5c-ff27a24fd097)
 ![image](https://github.com/mohita98/MyExpenseApp/assets/77202377/0b80f1a5-e5b0-4743-a048-2101ccba408e)
 
 
